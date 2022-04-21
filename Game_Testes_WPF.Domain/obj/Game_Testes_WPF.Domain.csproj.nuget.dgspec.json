@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj",
+        "projectName": "Game_Testes_WPF.API",
+        "projectPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj",
+        "packagesPath": "C:\\Users\\Edmilson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Edmilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
+        "projectName": "Game_Testes_WPF.Domain",
+        "projectPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
+        "packagesPath": "C:\\Users\\Edmilson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Edmilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj": {
+                "projectPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

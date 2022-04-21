@@ -1,0 +1,13 @@
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Resources\Explosao.mp3
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Resources\MusicaGame.mp3
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Resources\Som_Flecha.mp3
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Orb.ico
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\GameBallons.exe
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\GameBallons.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\GameBallons.deps.json
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\GameBallons.runtimeconfig.json
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\GameBallons.pdb
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Game_Testes_WPF.API.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Game_Testes_WPF.Domain.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Game_Testes_WPF.API.pdb
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.WPForms\bin\Release\net5.0-windows\publish\Game_Testes_WPF.Domain.pdb
