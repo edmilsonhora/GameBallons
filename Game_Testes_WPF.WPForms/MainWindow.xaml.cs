@@ -113,7 +113,7 @@ namespace Game_Testes_WPF.WPForms
                 if (appSettings != null)
                 {
                     Record r = JsonSerializer.Deserialize<Record>(appSettings["record"]);
-                    recordMaximo = 10;//r.Pontos;
+                    recordMaximo = r.Pontos;
                 }
             }
             catch { }
