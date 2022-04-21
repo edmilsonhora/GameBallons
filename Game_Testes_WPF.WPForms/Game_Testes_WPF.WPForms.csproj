@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>GameBallons</AssemblyName>
+    <ApplicationIcon>Orb.ico</ApplicationIcon>
+    <Authors>Edmilson Hora</Authors>
+    <Company>ESH-Systems</Company>
+    <Description>Game 2D para passar o tempo.</Description>
+    <PackageIcon>Orb.ico</PackageIcon>
+    <PackageIconUrl />
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Orb.ico" />
+    <None Include="..\..\..\..\Pictures\Nova pasta\Orb.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Game_Testes_WPF.API\Game_Testes_WPF.API.csproj" />
+    <ProjectReference Include="..\Game_Testes_WPF.Domain\Game_Testes_WPF.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Orb.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

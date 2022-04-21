@@ -1,0 +1,12 @@
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\bin\Release\net5.0-windows\Game_Testes_WPF.API.deps.json
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\bin\Release\net5.0-windows\Game_Testes_WPF.API.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\bin\Release\net5.0-windows\ref\Game_Testes_WPF.API.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\bin\Release\net5.0-windows\Game_Testes_WPF.API.pdb
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.AssemblyInfoInputs.cache
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.AssemblyInfo.cs
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.csproj.CoreCompileInputs.cache
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\ref\Game_Testes_WPF.API.dll
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.pdb
+C:\Users\Edmilson\source\repos\Game_Testes_WPF\Game_Testes_WPF.API\obj\Release\net5.0-windows\Game_Testes_WPF.API.csproj.AssemblyReference.cache

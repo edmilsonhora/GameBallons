@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Game_Testes_WPF.Domain/1.0.0": {
+        "dependencies": {
+          "Game_Testes_WPF.API": "1.0.0"
+        },
+        "runtime": {
+          "Game_Testes_WPF.Domain.dll": {}
+        }
+      },
+      "Game_Testes_WPF.API/1.0.0": {
+        "runtime": {
+          "Game_Testes_WPF.API.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Game_Testes_WPF.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game_Testes_WPF.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
