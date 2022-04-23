@@ -35,11 +35,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
       "projectName": "Game_Testes_WPF.Domain",
-      "projectPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
+      "projectPath": "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
       "packagesPath": "C:\\Users\\Edmilson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Edmilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,8 +56,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj": {
-              "projectPath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj"
+            "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj": {
+              "projectPath": "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.API\\Game_Testes_WPF.API.csproj"
             }
           }
         }
@@ -81,6 +81,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

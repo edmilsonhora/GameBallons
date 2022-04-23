@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ijmsa1ejlK37/JRw6CBiYq85hbnlOj2MmLjKn+unM1iiwYmDPUBLikLKIZR2HhrOE33L/hh2ICMKROAnYqqW1Q==",
+  "dgSpecHash": "F33vAm+YGQbXsIm4cuB00YQq8xgtpGZaLwBSJKLKF7YkC7SIzEhOfGrtyWxU5ZKKqavXkIxraStNJEg3m/iDog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edmilson\\source\\repos\\Game_Testes_WPF\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Edmilson\\source\\repos\\edmilsonhora\\GameBallons\\Game_Testes_WPF.Domain\\Game_Testes_WPF.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edmilson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Edmilson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Edmilson\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
