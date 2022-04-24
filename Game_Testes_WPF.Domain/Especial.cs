@@ -25,9 +25,6 @@ namespace Game_Testes_WPF.Domain
             Height = 100;
             Width = 70;
             rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
-            //rect.Fill = Helper.ObterImage(baloes[_random.Next(0, 2)]);
             rect.Margin = Posicionar();
         }
 

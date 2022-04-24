@@ -21,10 +21,7 @@ namespace Game_Testes_WPF.Domain
             Y = 0;
             Height = (int) canvas.Height;
             Width = (int)canvas.Width;
-
-            rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
+            rect = Rect;           
             rect.Fill = Helper.ObterImage(Media.PanoDeFundo);
             rect.Margin = Posicionar();
         }

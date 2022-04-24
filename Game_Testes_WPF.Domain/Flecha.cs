@@ -21,10 +21,7 @@ namespace Game_Testes_WPF.Domain
             Y = (int)canvas.Height - 400;
             Height = 15;
             Width = 46;
-
-            rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
+            rect = Rect;            
             rect.Fill = Helper.ObterImage(Media.Flecha);
             rect.Margin = Posicionar();
         }
@@ -61,7 +58,7 @@ namespace Game_Testes_WPF.Domain
         {
             foreach (var balao in baloes)
             {
-                if (balao.Area.Contains(this.Area))
+                if (balao.Area.Contains(this.Area) && balao.EstaVisival)
                 {
                     balao.TocarSom();
                     this.EstaVivo = false;                     

@@ -18,9 +18,7 @@ namespace Game_Testes_WPF.Domain
             Y = (int)canvas.Height - 310;
             Height = 150;
             Width = 290; 
-            rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
+            rect = Rect;           
             rect.Fill = Helper.ObterImage(Media.Plataforma);
             rect.Margin = Posicionar();
         }

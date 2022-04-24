@@ -20,9 +20,7 @@ namespace Game_Testes_WPF.Domain
             Y = (int) canvas.Height - 100;
             Height = 60;
             Width = 70;
-            rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
+            rect = Rect;           
             rect.Fill = Helper.ObterImage(Media.Flechas);
             rect.Margin = Posicionar();
 

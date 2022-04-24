@@ -23,7 +23,7 @@ namespace Game_Testes_WPF.Domain
         public int Y { get; set; }
         public int Height { get; set; }
         public int Width { get; set; }
-        public Rectangle Rect { get { return new Rectangle(); } }
+        public Rectangle Rect { get { return GetRectangle(); } }
         public Rect Area { get { return GetArea(); } }
         public bool EstaVivo { get; set; }
         public MediaPlayer MediaPlayer { get; set; }
@@ -37,6 +37,15 @@ namespace Game_Testes_WPF.Domain
         protected Rect GetArea()
         {
             return new Rect(new Point(this.X, this.Y), new Size(this.Width, this.Height));
+        }
+
+        protected Rectangle GetRectangle()
+        {
+            return new Rectangle
+            {
+                Height = this.Height,
+                Width = this.Width,
+            };
         }
 
     }

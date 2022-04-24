@@ -22,20 +22,21 @@ namespace Game_Testes_WPF.Domain
         {
             this._radom = random;
             velocidadeMovimento = _radom.Next(3, 9);
+            EstaVisival = true;
             EstaVivo = true;
             X = random.Next(400, (int)canvas.Width - 100);
             Y = (int)canvas.Height;
             Height = 100;
             Width = 70;
             rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
-            rect.Fill = Helper.ObterImage(baloes[random.Next(0,3)]);
+            rect.Fill = Helper.ObterImage(baloes[random.Next(0, 3)]);
             rect.Margin = Posicionar();
 
             MediaPlayer = new MediaPlayer();
             MediaPlayer.Open(new Uri(Directory.GetCurrentDirectory() + "/Resources/Explosao.mp3"));
         }
+
+        public bool EstaVisival { get; set; }
 
         public override void Desenhar()
         {
@@ -53,25 +54,28 @@ namespace Game_Testes_WPF.Domain
         }
 
         public void RemoveDoCanvas()
-        {            
+        {
             Canvas.Children.Remove(rect);
         }
 
         public void Esconder()
-        { 
+        {
+            EstaVisival = false;
             rect.Visibility = Visibility.Hidden;
             RemoveDoCanvas();
+
         }
 
         public void TocarSom()
-        {            
+        {
             MediaPlayer.Play();
-            //EstaVivo = false;
+
+
         }
 
         public void Mover()
         {
-            this.Y -= velocidadeMovimento; 
+            this.Y -= velocidadeMovimento;
             rect.Margin = Posicionar();
             EstaNaTela();
         }

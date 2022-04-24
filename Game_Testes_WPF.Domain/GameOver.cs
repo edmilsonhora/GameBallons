@@ -13,12 +13,8 @@ namespace Game_Testes_WPF.Domain
             Height = 350;
             Width = 490;
             X = (int)(canvas.Width / 2) - Width / 2;
-            Y = (int)(canvas.Height / 2) - Height / 2;
-            
-
+            Y = (int)(canvas.Height / 2) - Height / 2; 
             rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
             rect.Fill = Helper.ObterImage(Media.GameOver);
             rect.Margin = Posicionar();
 

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Edmilson\source\repos\edmilsonhora\GameBallons\Game_Testes_WPF.WPForms\App.xaml
-2161323581
+3-2060300902
 1-1853899653
-6-1255938484
-195-958005883
-MainWindow.xaml;PlayerRecord.xaml;
+7-1549613464
+195-1860592372
+MainWindow.xaml;PlayerRecord.xaml;SplashScreen.xaml;
 
-True
+False
 

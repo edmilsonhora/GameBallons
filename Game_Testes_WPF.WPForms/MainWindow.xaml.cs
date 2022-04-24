@@ -151,13 +151,14 @@ namespace Game_Testes_WPF.WPForms
             {
                 baloes.RemoveAll(x => !x.EstaVivo);
                 flechas.RemoveAll(x => !x.EstaVivo);
+
                 flechas.ForEach(p => p.Mover());
+                baloes.ForEach(p => p.Mover());
+
                 flechas.ForEach(p => p.EstaColidindoCom(baloes, placar));
 
                 if (placar.Pontos > recordMaximo)
                     placarMaximo.AtualizarPontos(placar.Pontos);
-
-
 
                 if (pontosParaPremioMunicao.Contains(placar.Pontos) && !atualizouMunicao)
                 {
@@ -168,17 +169,15 @@ namespace Game_Testes_WPF.WPForms
                 else if ((placar.Pontos != checkPoint) && atualizouMunicao)
                 {
                     atualizouMunicao = false;
-                }
-
-                flechas.ForEach(p => p.EstaColidindoCom(especiais));
-
-                baloes.ForEach(p => p.Mover());
+                }                             
 
                 foreach (Especial especial in especiais)
                 {
                     especial.Sintilar();
                     especial.Mover();
                 }
+
+                flechas.ForEach(p => p.EstaColidindoCom(especiais));
 
                 arqueiro.Mover();
                 arqueiro.TemMunicao(flechas);

@@ -24,9 +24,7 @@ namespace Game_Testes_WPF.Domain
             Width = 90;
             chao = (int)canvas.Height - 445;
             this.municao = municao;
-            rect = Rect;
-            rect.Height = Height;
-            rect.Width = Width;
+            rect = Rect;            
             rect.Fill = Helper.ObterImage(lista[i]);
             rect.Margin = Posicionar();
         }
